@@ -4,11 +4,6 @@
 
 **DecaTri** is a custom cipher that encodes text into groups of three digits.
 
-The name comes from:
-
-* **Deca** → 10
-* **Tri** → 3
-
 ## How does it work?
 
 DecaTri uses the 10 digits from `0` to `9` to create **120 unique combinations of 3 different digits**.
@@ -51,14 +46,22 @@ The character mapping is randomly generated and stored in a key file.
 
 Plaintext:
 
+```key
+BaoTom
+```
+
 ```text
-Hello, World!
+Hello! My name is BaoTom.
 ```
 
 DecaTri:
 
 ```text
-418938863058975470873386902318138186290368386942594957184317209873681863807873850378381683837092642597158386085957
+772 372 150 113 306 080 798 166 798 659 608 424 460 237 316 907 640 626 243 248 163 991 603 766 640 238 856 640 372 439 842 659 327 624 569 544 361 665 286
+```
+or
+```
+772372150113306080798166798659608424460237316907640626243248163991603766640238856640372439842659327624569544361665286 
 ```
 
 The exact ciphertext depends on the generated key and random digit shuffling.
