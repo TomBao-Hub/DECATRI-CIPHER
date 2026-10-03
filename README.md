@@ -43,17 +43,14 @@ The character mapping is randomly generated and stored in a key file.
 * Simple Python implementation
 
 ## Example
-
-Plaintext:
-
-```key
+Key
+```text
 BaoTom
 ```
-
+Plaintext:
 ```text
 Hello! My name is BaoTom.
 ```
-
 DecaTri:
 
 ```text
